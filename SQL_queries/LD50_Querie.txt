@@ -1,0 +1,6 @@
+SELECT type, standard_value, compound_structures.canonical_smiles
+FROM activities, compound_structures
+WHERE type LIKE 'LD50'
+AND standard_value<500
+AND activities.molregno = compound_structures.molregno
+    

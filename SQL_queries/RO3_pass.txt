@@ -1,0 +1,4 @@
+SELECT RO3_PASS, PSA, compound_structures.canonical_smiles
+FROM compound_properties, compound_structures
+WHERE compound_properties.RO3_PASS != "NULL"
+AND compound_properties.molregno = compound_structures.molregno

@@ -1,0 +1,15 @@
+##Data and model paths
+#Path to training set: , /mnt/SSD1/Data
+#Path to training data: , /mnt/SSD1/data
+#Path to models: , /mnt/HDD1/models
+#Path to cluster data: , /mnt/SSD1/data/cluster_label, /mnt/SSD1/data/cluster
+
+##Files
+#File name: , labeled_training_data, training_data, cluster_data_epoch_
+#Model name: , model_morgan, model_maccs
+
+##Data set
+#LD50: , LD50_Test_data.csv
+
+##Fingerprints
+#Fps: , Morgan, Maccs, Top

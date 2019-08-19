@@ -1,0 +1,5 @@
+SELECT compound_structures.molregno, RO3_pass, psa, alogp, compound_structures.canonical_smiles
+FROM compound_structures, compound_properties 
+WHERE compound_structures.molregno = compound_properties.molregno
+AND compound_properties.psa != "NULL"
+AND compound_properties.alogp != "NULL";

@@ -1,0 +1,19 @@
+##Data and model paths
+#Path to training set: , /mnt/SSD1/Data
+#Path to training data: , /mnt/SSD1/data
+#Path to models: , /mnt/HDD1/models
+#Path to cluster data: , /mnt/SSD1/data/cluster_label, /mnt/SSD1/data/cluster
+
+##Files
+#File name: , labeled_training_data, training_data, labeled_sim_data, sim_data
+#Model name: , model_morgan, model_maccs
+
+##Data set
+#LD50: , LD50_Test_data.csv
+#RO3: , RO3_Test_data.csv
+#HIV: , HIV_Prop_data.csv, HIV_Test_data.csv
+#Plas: , Plasmodium_Prop_data.csv
+#Train: , Pre_train_Prop_data.csv
+
+##Fingerprints
+#Fps: , Morgan, Maccs, Top

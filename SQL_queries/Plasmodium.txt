@@ -1,0 +1,11 @@
+SELECT activities.units, activities.value, psa, alogp, compound_structures.canonical_smiles
+FROM assays, activities, compound_structures, compound_properties 
+WHERE assays.tid = 50425
+AND assays.assay_id = activities.assay_id 
+AND activities.type LIKE "IC50" 
+AND activities.value != "NULL" 
+AND activities.units LIKE "%M"  
+AND activities.molregno = compound_structures.molregno
+AND activities.molregno = compound_properties.molregno
+AND compound_properties.psa != "NULL"
+AND compound_properties.alogp != "NULL";
